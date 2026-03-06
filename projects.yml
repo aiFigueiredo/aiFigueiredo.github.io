@@ -1,0 +1,79 @@
+- id: "01"
+  title: "Medal.TV"
+  subtitle: "Gaming / Social"
+  description: "Cross-platform gaming solution to clip and share epic gaming moments. Responsible for redesigning the entire Share Experience in a modular, scalable manner using MVVM + Combine."
+  tech: ["Swift", "MVVM", "Combine", "SPM"]
+  app_store_url: "https://apps.apple.com/app/medal-clip-gaming-moments/id1439346382"
+  icon: "🎮"
+
+- id: "02"
+  title: "Hertz Car Rentals"
+  subtitle: "Travel / Enterprise"
+  description: "Redesigned the entire Network Layer and Check-In feature in a modular, scalable manner. Set company-wide framework standards and defined module architecture."
+  tech: ["Swift", "MVVM", "Modular", "CI/CD"]
+  app_store_url: "https://apps.apple.com/app/hertz-car-rental/id359208263"
+  icon: "🚗"
+
+- id: "03"
+  title: "Verizon Cloud"
+  subtitle: "Cloud Storage / Telco"
+  description: "Re-architected the authentication component to serve a long list of White Label clients. Bug fixing, new features, and CI/CD improvements at scale."
+  tech: ["Swift", "Obj-C", "VIPER", "MVVM", "MVP"]
+  app_store_url: "https://apps.apple.com/app/verizon-cloud/id693481587"
+  icon: "☁️"
+
+- id: "04"
+  title: "AT&T Personal Cloud"
+  subtitle: "Cloud Storage / Telco"
+  description: "Rebuilt the authentication component as a reusable Framework across the AT&T product family. Codebase maintenance and testing at scale."
+  tech: ["Swift", "Obj-C", "VIPER", "Framework"]
+  app_store_url: "https://apps.apple.com/app/att-personal-cloud/id709523634"
+  icon: "🔒"
+
+- id: "05"
+  title: "Via Verde Transportes"
+  subtitle: "Public Transport / Fintech"
+  description: "Architected and developed the native v2.0 from scratch, replacing Xamarin. Travel-first, pay-later ticketing with best-rate calculation."
+  tech: ["Swift 3", "VIPER", "Realm", "Cocoapods"]
+  app_store_url: "https://apps.apple.com/pt/app/via-verde-transportes/id968353854"
+  icon: "🚌"
+
+- id: "06"
+  title: "Vodafone Smart Router"
+  subtitle: "Network Management / Telco"
+  description: "Router and Wi-Fi network management tool for Vodafone Portugal. Control network configurations anywhere, anytime."
+  tech: ["Swift 3", "MVC", "Cocoapods"]
+  app_store_url: "https://apps.apple.com/pt/app/vodafone-smart-router/id1069965982"
+  icon: "📡"
+
+- id: "07"
+  title: "RCS+"
+  subtitle: "Messaging / Telco"
+  description: "Full-featured chat with Group Chat, File Transfer, IP Voice & Video, Stickers, Rich Cards, and Chatbot — deployed across multiple global Telco clients."
+  tech: ["Swift", "Obj-C", "MVVM"]
+  app_store_url: null
+  icon: "💬"
+
+- id: "08"
+  title: "Legal Matters"
+  subtitle: "Productivity / Enterprise"
+  description: "Case management tool for lawyers — appointments, expenses, and time tracking backed by Salesforce Mobile SDK."
+  tech: ["Obj-C", "MVC", "Salesforce SDK", "Cocoapods"]
+  app_store_url: null
+  icon: "⚖️"
+
+- id: "09"
+  title: "Aldeias de Montanha"
+  subtitle: "Tourism / Outdoor"
+  description: "Tourism guide for the Seia mountain area with offline maps, SQLite databases, hiking navigation and orientation system."
+  tech: ["Obj-C", "MVC", "SQLite3", "Maps"]
+  app_store_url: null
+  icon: "🏔️"
+
+- id: "10"
+  title: "Night Life"
+  subtitle: "Lifestyle / Social"
+  description: "Portugal nightlife guide — first iOS project. Check venues and upcoming events. Built with Facebook SDK and GraphAPI."
+  tech: ["Obj-C", "MVC", "Facebook SDK", "GraphAPI"]
+  app_store_url: null
+  icon: "🌙"
