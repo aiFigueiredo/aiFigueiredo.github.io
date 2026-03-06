@@ -62,25 +62,13 @@ function parseProjectsYaml(yamlText) {
     description: project.description || '',
     tech: Array.isArray(project.tech) ? project.tech : [],
     appStoreUrl: project.app_store_url || null,
-    icon: project.icon || ''
+    icon: project.icon || '',
+    screenshots: Array.isArray(project.screenshots) ? project.screenshots : []
   }));
 }
 
-const PROJECT_SCREENSHOTS = {
-  'Medal.TV': [
-    'images/medal-screenshot-0.png',
-    'images/medal-screenshot-1.png',
-    'images/medal-screenshot-2.png'
-  ],
-  'Hertz Car Rentals': [
-    'images/hertz-screenshot-1.png',
-    'images/hertz-screenshot-2.png',
-    'images/hertz-screenshot-3.png'
-  ]
-};
-
 function renderProjectScreens(project) {
-  const screenshots = PROJECT_SCREENSHOTS[project.title] || [];
+  const screenshots = project.screenshots || [];
 
   return [0, 1, 2].map((index) => {
     const screenshot = screenshots[index];
@@ -116,9 +104,11 @@ function renderProjects(projects) {
       <p class="project-desc">${p.description}</p>
       <div class="project-tech">${p.tech.map(t => `<span class="tech-badge">${t}</span>`).join('')}</div>
       ${p.appStoreUrl ? `
-        <a href="${p.appStoreUrl}" target="_blank" rel="noopener noreferrer" class="appstore-btn" aria-label="View ${p.title} on App Store">
-          <img src="images/download-app-store.svg" alt="Download on the App Store" loading="lazy" decoding="async" />
-        </a>` : ''}
+        <div class="appstore-row">
+          <a href="${p.appStoreUrl}" target="_blank" rel="noopener noreferrer" class="appstore-btn" aria-label="View ${p.title} on App Store">
+            <img src="images/download-app-store.svg" alt="Download on the App Store" loading="lazy" decoding="async" />
+          </a>
+        </div>` : ''}
     </article>
     `).join('');
 

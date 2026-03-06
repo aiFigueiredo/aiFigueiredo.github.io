@@ -3,32 +3,32 @@
   subtitle: "Gaming / Social"
   description: "Cross-platform gaming solution to clip and share epic gaming moments. Responsible for redesigning the entire Share Experience in a modular, scalable manner using MVVM + Combine."
   tech: ["Swift", "MVVM", "Combine", "SPM"]
-  app_store_url: "https://apps.apple.com/app/medal-clip-gaming-moments/id1439346382"
-  icon: "🎮"
+  app_store_url: "https://apps.apple.com/pt/app/medal-game-clipping/id1518008441"
+  screenshots: ["images/medal-screenshot-0.png", "images/medal-screenshot-1.png", "images/medal-screenshot-2.png"]
 
 - id: "02"
   title: "Hertz Car Rentals"
   subtitle: "Travel / Enterprise"
   description: "Redesigned the entire Network Layer and Check-In feature in a modular, scalable manner. Set company-wide framework standards and defined module architecture."
   tech: ["Swift", "MVVM", "Modular", "CI/CD"]
-  app_store_url: "https://apps.apple.com/app/hertz-car-rental/id359208263"
-  icon: "🚗"
+  app_store_url: "https://apps.apple.com/pt/app/hertz-car-rentals/id352114300"
+  screenshots: ["images/hertz-screenshot-1.png", "images/hertz-screenshot-2.png", "images/hertz-screenshot-3.png"]
 
 - id: "03"
   title: "Verizon Cloud"
   subtitle: "Cloud Storage / Telco"
   description: "Re-architected the authentication component to serve a long list of White Label clients. Bug fixing, new features, and CI/CD improvements at scale."
-  tech: ["Swift", "Obj-C", "VIPER", "MVVM", "MVP"]
-  app_store_url: "https://apps.apple.com/app/verizon-cloud/id693481587"
-  icon: "☁️"
+  tech: ["Swift", "Obj-C", "VIPER", "MVVM"]
+  app_store_url: "https://apps.apple.com/us/app/verizon-cloud/id645682444"
+  screenshots: ["images/verizon-cloud-screenshot-01.png", "images/verizon-cloud-screenshot-02.png", "images/verizon-cloud-screenshot-03.png"]
 
 - id: "04"
   title: "AT&T Personal Cloud"
   subtitle: "Cloud Storage / Telco"
   description: "Rebuilt the authentication component as a reusable Framework across the AT&T product family. Codebase maintenance and testing at scale."
-  tech: ["Swift", "Obj-C", "VIPER", "Framework"]
-  app_store_url: "https://apps.apple.com/app/att-personal-cloud/id709523634"
-  icon: "🔒"
+  tech: ["Swift", "Obj-C", "MVVM", "Framework"]
+  app_store_url: "https://apps.apple.com/us/app/at-t-personal-cloud/id1491499946"
+  screenshots: ["images/att-01.png", "images/att-02.png", "images/att-03.png"]
 
 - id: "05"
   title: "Via Verde Transportes"
@@ -36,15 +36,15 @@
   description: "Architected and developed the native v2.0 from scratch, replacing Xamarin. Travel-first, pay-later ticketing with best-rate calculation."
   tech: ["Swift 3", "VIPER", "Realm", "Cocoapods"]
   app_store_url: "https://apps.apple.com/pt/app/via-verde-transportes/id968353854"
-  icon: "🚌"
+  screenshots: ["images/vv-1.png", "images/vv-2.png", "images/vv-3.png"]
 
 - id: "06"
   title: "Vodafone Smart Router"
   subtitle: "Network Management / Telco"
   description: "Router and Wi-Fi network management tool for Vodafone Portugal. Control network configurations anywhere, anytime."
   tech: ["Swift 3", "MVC", "Cocoapods"]
-  app_store_url: "https://apps.apple.com/pt/app/vodafone-smart-router/id1069965982"
-  icon: "📡"
+  app_store_url: "https://apps.apple.com/pt/app/vodafone-smart-router/id1151153223"
+  screenshots: ["images/vdf-1.png", "images/vdf-2.png", "images/vdf-3.png"]
 
 - id: "07"
   title: "RCS+"
@@ -52,7 +52,7 @@
   description: "Full-featured chat with Group Chat, File Transfer, IP Voice & Video, Stickers, Rich Cards, and Chatbot — deployed across multiple global Telco clients."
   tech: ["Swift", "Obj-C", "MVVM"]
   app_store_url: null
-  icon: "💬"
+  screenshots: ["images/rcs-1.png", "images/rcs-2.png", "images/rcs-3.png"]
 
 - id: "08"
   title: "Legal Matters"
@@ -60,7 +60,7 @@
   description: "Case management tool for lawyers — appointments, expenses, and time tracking backed by Salesforce Mobile SDK."
   tech: ["Obj-C", "MVC", "Salesforce SDK", "Cocoapods"]
   app_store_url: null
-  icon: "⚖️"
+  screenshots: ["images/legal-1.png", "images/legal-2.png", "images/legal-3.png"]
 
 - id: "09"
   title: "Aldeias de Montanha"
@@ -68,7 +68,7 @@
   description: "Tourism guide for the Seia mountain area with offline maps, SQLite databases, hiking navigation and orientation system."
   tech: ["Obj-C", "MVC", "SQLite3", "Maps"]
   app_store_url: null
-  icon: "🏔️"
+  screenshots: ["images/aldeias-1.png", "images/aldeias-2.png", "images/aldeias-3.png"]
 
 - id: "10"
   title: "Night Life"
@@ -76,4 +76,4 @@
   description: "Portugal nightlife guide — first iOS project. Check venues and upcoming events. Built with Facebook SDK and GraphAPI."
   tech: ["Obj-C", "MVC", "Facebook SDK", "GraphAPI"]
   app_store_url: null
-  icon: "🌙"
+  screenshots: ["images/nl-1.png", "images/nl-2.png", "images/nl-3.png"]
