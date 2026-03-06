@@ -1,3 +1,30 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Temp files
+*.tmp
+*.temp
+
+# Jekyll / GitHub Pages build artifacts
 _site/
 .sass-cache/
 .jekyll-cache/
