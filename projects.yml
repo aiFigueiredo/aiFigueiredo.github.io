@@ -1,7 +1,7 @@
 - id: "01"
   title: "Medal.TV"
   subtitle: "Gaming / Social"
-  description: "Cross-platform gaming solution to clip and share epic gaming moments. Responsible for redesigning the entire Share Experience in a modular, scalable manner using MVVM + Combine."
+  description: "Medal is the easiest clipping app where you can capture and share your gaming moments. Owned architecture decisions for core application flows (MVVM + Swift Concurrency) while driving two cross-cutting initiatives: AI tooling adoption and CI/CD pipeline modernization."
   tech: ["Swift", "MVVM", "Combine", "SPM"]
   app_store_url: "https://apps.apple.com/pt/app/medal-game-clipping/id1518008441"
   screenshots: ["images/medal-screenshot-0.png", "images/medal-screenshot-1.png", "images/medal-screenshot-2.png"]
