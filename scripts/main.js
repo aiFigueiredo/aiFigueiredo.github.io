@@ -185,14 +185,42 @@ window.addEventListener('scroll', () => {
 // ── HAMBURGER ──
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-});
+const navOverlay = document.getElementById('nav-overlay');
+requestAnimationFrame(() => navLinks.classList.add('ready'));
+
+function preventScroll(e) {
+  if (!navLinks.contains(e.target)) e.preventDefault();
+}
+
+function openMenu() {
+  navLinks.classList.add('open');
+  navOverlay.classList.add('open');
+  hamburger.classList.add('open');
+  document.body.classList.add('menu-open');
+  document.addEventListener('touchmove', preventScroll, { passive: false });
+  document.addEventListener('wheel', preventScroll, { passive: false });
+}
+function closeMenu() {
+  if (!navLinks.classList.contains('open')) return;
+  navLinks.classList.remove('open');
+  navOverlay.classList.remove('open');
+  hamburger.classList.remove('open');
+  document.body.classList.remove('menu-open');
+  document.removeEventListener('touchmove', preventScroll);
+  document.removeEventListener('wheel', preventScroll);
+}
+function toggleMenu() {
+  navLinks.classList.contains('open') ? closeMenu() : openMenu();
+}
+
+hamburger.addEventListener('click', toggleMenu);
 hamburger.addEventListener('keydown', e => {
-  if (e.key === 'Enter' || e.key === ' ') navLinks.classList.toggle('open');
+  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleMenu(); }
 });
+navOverlay.addEventListener('click', closeMenu);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
 navLinks.querySelectorAll('a').forEach(a => {
-  a.addEventListener('click', () => navLinks.classList.remove('open'));
+  a.addEventListener('click', closeMenu);
 });
 
 // ── SCROLL REVEAL ──
