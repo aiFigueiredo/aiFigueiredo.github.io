@@ -288,6 +288,10 @@ h1 em { font-style: italic; color: var(--amber2); }
 
 /* ── SECTION BASE ── */
 section { padding: 8rem 4rem; }
+#about > * {
+  max-width: 1680px;
+  margin-inline: auto;
+}
 .section-label {
   font-family: var(--font-mono);
   font-size: 0.65rem;
