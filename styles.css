@@ -394,12 +394,14 @@ h2 em { font-style: italic; color: var(--amber2); }
 }
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  /* Keep cards at least 320px wide and cap each row at five, allowing for gaps. */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, max(320px, calc(20% - 1.2px))), 1fr));
   gap: 1.5px;
   background: var(--border);
   border: 1px solid var(--border);
 }
 .project-card {
+  min-width: 0;
   background: var(--black);
   padding: 2.5rem;
   position: relative;
@@ -426,6 +428,7 @@ h2 em { font-style: italic; color: var(--amber2); }
 }
 .project-screens {
   display: flex; gap: 0.5rem;
+  flex-shrink: 0;
   margin-bottom: 1.5rem;
   height: 140px;
   overflow: hidden;
